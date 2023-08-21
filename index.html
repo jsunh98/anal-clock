@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Analog Clock</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
     <div class="clock">
@@ -25,6 +25,14 @@
             <span style="--i:10;"><b>X</b></span>
             <span style="--i:11;"><b>XI</b></span>
         </div>
+        <!-- Digital Clock-->
+        <div id="time">
+            <div id="hour" style="--clr: #ff2972;">00</div>
+            <div id="minutes" style="--clr: #fee800;">00</div>
+            <div id="seconds" style="--clr: #04fc43;">00</div>
+            <div id="ampm" style="--clr: #fff;">AM</div>
+        </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
